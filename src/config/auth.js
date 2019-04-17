@@ -1,4 +1,4 @@
 module.exports = {
-  secret: 'removethis',
+  secret: process.env.APP_SECRET,
   ttl: 86400 // 1 day
 }
